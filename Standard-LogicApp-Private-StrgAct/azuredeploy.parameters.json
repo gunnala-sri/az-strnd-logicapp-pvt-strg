@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppFEname": {
+      "value": "sg-stndard-lg"
+    },
+    "fileShareName": {
+      "value": "sg-lg-fshare"
+    },
+    "use32BitWorkerProcess": {
+      "value": true
+    },
+    "hostingPlanFEName": {
+      "value": "sg-app-service-plan"
+    },
+    "contentStorageAccountName": {
+      "value": "sgstrgact"
+    },
+    "sku": {
+      "value": "WorkflowStandard"
+    },
+    "skuCode": {
+      "value": "WS1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "0"
+    },
+    "vnetName": {
+      "value": "sg-vnet"
+    },
+    "subnetName": {
+      "value": "subnet-pvt"
+    },
+    "virtualNetworkAddressPrefix": {
+      "value": "10.100.0.0/16"
+    },
+    "functionSubnetAddressPrefix": {
+      "value": "10.100.0.0/24"
+    },
+    "privateEndpointSubnetAddressPrefix": {
+      "value": "10.100.1.0/24"
+    }
+  }
+}

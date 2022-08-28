@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Standard-LogicApp-Private-StrgAct", "Standard-LogicApp-Private-StrgAct\Standard-LogicApp-Private-StrgAct.deployproj", "{69611FBC-B69D-40F1-AA2E-144E0A774C1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69611FBC-B69D-40F1-AA2E-144E0A774C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69611FBC-B69D-40F1-AA2E-144E0A774C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69611FBC-B69D-40F1-AA2E-144E0A774C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69611FBC-B69D-40F1-AA2E-144E0A774C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B8FCD0-11C7-4DD2-93C5-B8A9BA244490}
+	EndGlobalSection
+EndGlobal
